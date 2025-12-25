@@ -1,0 +1,19 @@
+{
+  "name": "be-afraid-who-you-are",
+  "version": "1.0.0",
+  "description": "GBP suspension lead scraper",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "scrape": "node index.js"
+  },
+  "keywords": ["gbp", "scraper", "leads", "suspension"],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.6.0",
+    "cheerio": "^1.0.0-rc.12",
+    "nodemailer": "^6.9.0",
+    "dotenv": "^16.0.0"
+  }
+}
